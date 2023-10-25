@@ -3,6 +3,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+
         // Bireysel müşteri oluşturuyoruz
         IndividualCustomer individualCustomer = new IndividualCustomer();
         individualCustomer.setId(1);
