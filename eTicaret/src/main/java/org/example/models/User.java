@@ -3,13 +3,13 @@ package org.example.models;
 public class User {
 
     private int id;
-    private String name;
+    private String firstName;
     private String lastName;
     private String email;
 
-    public User(int id, String name, String lastName, String email) {
+    public User(int id, String firstName, String lastName, String email) {
         this.id = id;
-        this.name = name;
+        this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
     }
@@ -23,11 +23,11 @@ public class User {
     }
 
     public String getName() {
-        return name;
+        return firstName;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.firstName = name;
     }
 
     public String getLastName() {
