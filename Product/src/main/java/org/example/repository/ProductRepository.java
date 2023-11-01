@@ -1,2 +1,8 @@
-package org.example.repository;public interface ProductRepository {
+package org.example.repository;
+
+import org.example.entities.Product;
+
+public interface ProductRepository {
+
+    void add(Product product);
 }

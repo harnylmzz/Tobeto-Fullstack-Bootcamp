@@ -12,6 +12,10 @@
         <module>Kamp2-OOP1</module>
         <module>eTicaret</module>
         <module>Kamp3-OOP2</module>
+        <module>CalismaAlani</module>
+        <module>Inheritance</module>
+        <module>oopWithNLayeredApp</module>
+        <module>Product</module>
     </modules>
 
     <properties>
