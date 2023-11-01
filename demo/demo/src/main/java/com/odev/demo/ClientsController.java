@@ -8,21 +8,21 @@ public class ClientsController {
 
     @PostMapping("/add")
     public String add() {
-        return "add";
+        return "Client add";
     }
 
     @DeleteMapping("/delete")
     public String delete() {
-        return "delete";
+        return "Client delete";
     }
 
     @PutMapping("/update")
     public String update() {
-        return "update";
+        return "Client update";
     }
 
     @GetMapping("/get")
     public String get() {
-        return "get";
+        return "Client get";
     }
 }

@@ -8,17 +8,17 @@ public class ProductsController {
 
     @PostMapping("/add")
     public String add() {
-        return "add";
+        return "Product add";
     }
 
     @DeleteMapping("/delete")
     public String delete() {
-        return "delete";
+        return "Product delete";
     }
 
     @PutMapping("/update")
     public String update() {
-        return "update";
+        return "Product update";
     }
 
     @GetMapping("/get")
